@@ -8,7 +8,7 @@ public class ArrayCopyDemo {
 //        System.out.println("arr的地址:"+arr);
 //        System.out.println("arr的地址:"+arr);
     int[] arr2 = new int[5];
-    System.arraycopy(arr,3,arr2,1,4);
+    System.arraycopy(arr,3,arr2,1,4);//必须严格对齐
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr2[i]+"\t");
         }
