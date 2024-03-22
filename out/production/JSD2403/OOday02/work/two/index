@@ -1,0 +1,7 @@
+1. Person、Student、Teacher、Doctor类和Test类
+
+   - Person类：name、age、address、Person(参)、eat()、sleep()，sayHi()
+   - Student类：继承Person、className、stuId，Student(参)、study()，重写sayHi()方法
+   - Teacher类：继承Person、salary，Teacher(参)、teach()，重写sayHi()方法
+   - Doctor类：继承Person、title，Doctor(参)、cut()
+   - Test：创建对象、调用方法测试

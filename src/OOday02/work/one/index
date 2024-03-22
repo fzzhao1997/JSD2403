@@ -1,0 +1,14 @@
+1. Person、Student、Teacher、Doctor类和Test类
+
+   - Person类：name、age、address、Person(参)、eat()、sleep()，sayHi()
+   - Student类：继承Person、className、stuId，Student(参)、study()，重写sayHi()方法
+   - Teacher类：继承Person、salary，Teacher(参)、teach()，重写sayHi()方法
+   - Doctor类：继承Person、title，Doctor(参)、cut()
+   - Test：创建对象、调用方法测试
+2. Animal、Dog、Chick、Fish和AnimalTest类
+
+      - Animal类：name、age、color、Animal(参)、drink()、eat()
+   - Dog类：继承Animal，重写eat()、lookHome()
+   - Chick类：继承Animal，重写eat()、layEggs()
+   - Fish类：继承Animal，重写eat()
+   - AnimalTest：创建3个Dog对象、3个Chick对象、2个Fish对象，并测试
